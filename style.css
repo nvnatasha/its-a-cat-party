@@ -96,14 +96,26 @@ li a {
     gap: 10px;
 }
 
+label {
+    font-family: 'monaco', monospace;
+    font-size: 1.4em;
+    color:#fdb181
+}
+
 input {
-    height: 2.0em;
+    height: 3.0em;
+    width: 26.6em;
 }
 
 .hero button {
     padding: 10px 20px;
     background-color: #e15f0e;
     border: none;
+    height: 3em;
+    width: 20em;
+    font-size: large;
+    font-family: 'monaco', monospace;
+    color: #ffffff;
     cursor: pointer;
 }
 
