@@ -87,6 +87,40 @@ li a {
     filter: brightness(100%);
 }
 
+.hero form {
+    font-family: 'monaco', monospace;
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+label {
+    font-family: 'monaco', monospace;
+    font-size: 1.4em;
+    color:#fdb181
+}
+
+input {
+    height: 3.0em;
+    width: 26.6em;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #e15f0e;
+    border: none;
+    height: 3em;
+    width: 20em;
+    font-size: large;
+    font-family: 'monaco', monospace;
+    color: #ffffff;
+    cursor: pointer;
+}
+
 .emmaline {
     position: relative;
     text-align: center;
@@ -153,40 +187,6 @@ li a {
     align-content: space-around;
     align-items: flex-start;
     gap: 10px;
-}
-
-.hero form {
-    font-family: 'monaco', monospace;
-    font-size: 120%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-items: flex-start;
-    gap: 10px;
-}
-
-label {
-    font-family: 'monaco', monospace;
-    font-size: 1.4em;
-    color:#fdb181
-}
-
-input {
-    height: 3.0em;
-    width: 26.6em;
-}
-
-.hero button {
-    padding: 10px 20px;
-    background-color: #e15f0e;
-    border: none;
-    height: 3em;
-    width: 20em;
-    font-size: large;
-    font-family: 'monaco', monospace;
-    color: #ffffff;
-    cursor: pointer;
 }
 
 .info {

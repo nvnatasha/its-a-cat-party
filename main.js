@@ -13,9 +13,9 @@ form.addEventListener("submit", displayCatName);
 
 
 function displayCatName(event) {
- event.preventDefault(); 
- var catName = input.value;
- headerText.innerText = catName;
+    event.preventDefault(); 
+    var catName = input.value;
+    headerText.innerText = catName;
 }
 
 function displayEmmy() {
