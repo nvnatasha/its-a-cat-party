@@ -42,7 +42,7 @@ li a {
     font-weight: bold;
     cursor: pointer;
 }
-.hero {
+.hero, .emmaline {
     position: relative;
     text-align: center;
     padding: 50px 20px;
@@ -53,7 +53,7 @@ li a {
     z-index: 1;
 }
 
-.hero::before {
+.hero::before, .emmaline::before {
     content: "";
     position: absolute;
     top: 0;
@@ -65,14 +65,14 @@ li a {
     pointer-events: none; 
 }
 
-.hero h1 {
+.hero h1, .emmaline h1 {
     font-size: 2.5em;
     color: #fdb181;
     text-shadow: 2px 2px #e15f0e;
     
 }
 
-.hero strong {
+.hero strong , .emmaline strong{
     color:#e15f0e;
     text-shadow: 2px 2px #fdb181;
 }
@@ -87,7 +87,7 @@ li a {
     filter: brightness(100%);
 }
 
-.hero form {
+.hero form, .emmaline form {
     font-family: 'monaco', monospace;
     font-size: 120%;
     display: flex;
@@ -109,7 +109,7 @@ input {
     width: 26.6em;
 }
 
-.hero button {
+.hero button, .emmaline button {
     padding: 10px 20px;
     background-color: #e15f0e;
     border: none;
@@ -121,40 +121,6 @@ input {
     cursor: pointer;
 }
 
-.emmaline {
-    position: relative;
-    text-align: center;
-    padding: 50px 20px;
-    background-image: url("assets/background.webp");
-    background-size: cover;
-    background-position: center;
-    color: #ff9558;
-    z-index: 1;
-}
-
-.emmaline::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1;
-    pointer-events: none; 
-}
-
-.emmaline h1 {
-    font-size: 2.5em;
-    color: #fdb181;
-    text-shadow: 2px 2px #e15f0e;
-    
-}
-
-.emmaline strong {
-    color:#e15f0e;
-    text-shadow: 2px 2px #fdb181;
-}
 
 .emmaline img {
     width: 300px;
@@ -164,29 +130,6 @@ input {
     border-width: 7px;
     margin: 20px 0;
     filter: brightness(100%);
-}
-
-.emmaline button {
-    padding: 10px 20px;
-    background-color: #e15f0e;
-    border: none;
-    height: 3em;
-    width: 20em;
-    font-size: large;
-    font-family: 'monaco', monospace;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.emmaline form {
-    font-family: 'monaco', monospace;
-    font-size: 120%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-items: flex-start;
-    gap: 10px;
 }
 
 .info {
